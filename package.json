@@ -1,0 +1,21 @@
+{
+  "name": "electron",
+  "version": "0.0.1",
+  "description": "First electron project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron" : "electron .",
+    "dev:watch" : "npx electronmon --trace-warnings ."
+  },
+  "keywords": [
+    "electron",
+    "js",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  }
+}
