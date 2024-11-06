@@ -16,7 +16,7 @@ body {
 .container {
     width: 300px;
     padding: 20px;
-    background-color: #c0b9b9;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: center;
@@ -30,6 +30,7 @@ h1 {
 
 .converter label {
     display: block;
+    text-align: left;
     margin-bottom: 5px;
     font-weight: bold;
     color: #555;
@@ -63,4 +64,9 @@ button:hover {
     margin-top: 15px;
     font-size: 1.2em;
     color: #333;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
 }
